@@ -12,8 +12,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger(__name__)
 
 BASE_URL      = "https://www.ivasms.com"
-IVAS_EMAIL    = os.environ.get('IVAS_EMAIL',    'usa19721986@gmail.com')
-IVAS_PASSWORD = os.environ.get('IVAS_PASSWORD', 'Amin@1972')
+IVAS_EMAIL    = os.environ.get('IVAS_EMAIL',    'bowosukauang@gmail.com')
+IVAS_PASSWORD = os.environ.get('IVAS_PASSWORD', 'Riyan999')
 COOKIES_ENV   = os.environ.get('COOKIES_JSON',  '')
 
 class IVASClient:
